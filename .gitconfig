@@ -1,0 +1,24 @@
+[user]
+	name = Colt Frederickson
+	email = coltfred@gmail.com
+[core]
+    editor = vim
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    dall = diff --no-ext-diff
+    d = diff --relative --no-ext-diff
+    dv = diff --ext-diff
+    df = diff --relative --no-ext-diff --name-only
+    dfall = diff --no-ext-diff --name-only
+    ds = diff --relative --no-ext-diff --name-status
+    dsall = diff --no-ext-diff --name-status
+    lg = log -p
+[diff]
+	external = /home/cfrederickson/bin/git_diff_wrapper
+[pager]
+      diff =
+[color]
+    ui = auto
